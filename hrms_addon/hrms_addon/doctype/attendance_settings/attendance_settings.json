@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-17 21:01:34.395617",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ucoo",
+  "days_for_absent_mark"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ucoo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "3",
+   "fieldname": "days_for_absent_mark",
+   "fieldtype": "Int",
+   "label": "Days For Absent Mark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-17 21:03:43.434620",
+ "modified_by": "Administrator",
+ "module": "Hrms Addon",
+ "name": "Attendance Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

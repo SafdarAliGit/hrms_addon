@@ -130,6 +130,14 @@ app_license = "mit"
 # 	}
 # }
 
+doc_events = {
+	"Attendance": {
+		"before_submit": "hrms_addon.events.calculate_over_time.submit",
+		"on_cancel": "hrms_addon.events.calculate_over_time.cancel",
+		# "before_save": "hrms_addon.events.calculate_over_time.save",
+	}
+}
+
 # Scheduled Tasks
 # ---------------
 
