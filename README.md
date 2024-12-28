@@ -4,4 +4,4 @@ Hrms Addon
 
 #### License
 
-mit
+mit# hrms_addon
